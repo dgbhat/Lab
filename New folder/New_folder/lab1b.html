@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<script type="text/javascript" src="scripts/jquery.min.js"></script>
+	</head>
+	<body>
+		
+		<p style="width:500px;height:500px;">
+			Hurray! You cannot right click on this page.
+		</p>
+		
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("body").on("contextmenu",function(e){
+				return false;
+				});
+			});
+		</script>
+
+	</body>
+</html>
